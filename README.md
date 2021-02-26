@@ -6,4 +6,4 @@
 
 #### В следующей работе будем изучать не менее важный раздел JavaScript, по окончанию которого можно добавить сайту более сложное поведение.
 
-[Ссылка на сайт](https://github.com/godninoff/russian-travel.git)
+[Ссылка на сайт](https://godninoff.github.io/russian-travel/)
