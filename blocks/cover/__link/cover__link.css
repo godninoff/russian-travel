@@ -12,7 +12,7 @@
 
 .cover__link::before {
     content: '';
-    background-image: url(./../../images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center center;
     position: absolute;
@@ -22,7 +22,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .7;
+    opacity: .8;
     z-index: -1;
     transition: opacity .3s;
 }
