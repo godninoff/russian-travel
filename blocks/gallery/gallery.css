@@ -1,6 +1,7 @@
 .gallery {
     max-width: 1184px;
     margin: 92px auto 92px;
+    padding: 0px;
     box-sizing: border-box;
     display: grid;
     justify-content: center;
@@ -21,7 +22,7 @@
 @media screen and (max-width: 1023px) {
     .gallery {
         max-width: 720px;
-        margin-top: 88px;
+        margin: 88px auto 88px;
         grid-template-columns: repeat(2, 352px);
         margin-bottom: 88px;
     }
