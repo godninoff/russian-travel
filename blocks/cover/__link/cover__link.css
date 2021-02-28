@@ -1,13 +1,13 @@
 .cover__link {
     background-image: #FFFFFF;
     max-width: 1184px;
-    min-height: 720px;
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     text-decoration: none;
-    margin: auto;
+    margin: 12px auto 92px;
 }
 
 .cover__link::before {
@@ -17,6 +17,7 @@
     background-position: center center;
     position: absolute;
     max-width: 1184px;
+    min-height: 740px;
     margin: 12px auto 92px;
     top: 0;
     right: 0;
@@ -34,11 +35,22 @@
 @media screen and (max-width: 1279px) {
     .cover__link {
         max-width: 1024px;
+        min-height: 640px;
+    }
+
+    .cover__link::before {
+        max-width: 1024px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__link {
+        max-width: 768px;
+        min-height: 480px;
+    }
+
+    .cover__link::before {
         max-width: 768px;
         min-height: 480px;
     }

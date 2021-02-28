@@ -4,3 +4,10 @@
     flex-direction: column;
     text-overflow: auto;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        width: 90%;
+        margin: auto;
+    }
+}

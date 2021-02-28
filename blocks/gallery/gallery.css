@@ -29,10 +29,11 @@
 
 @media screen and (max-width: 767px) {
     .gallery {
-        max-width: 288px;
+        width: 90%;
         margin-top: 64px;
         grid-template-columns: 288px;
         row-gap: 12px;
         margin-bottom: 64px;
+
     }
 }
