@@ -1,4 +1,8 @@
 .place__description {
-    margin: 0px 0px 26px;
+    margin: 0px;
     padding: 0px;
+}
+
+.place__description:nth-child(2) {
+    margin-top: 26px;
 }

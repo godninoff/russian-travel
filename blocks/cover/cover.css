@@ -43,11 +43,13 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
+        margin-bottom: 88px;
     }
 
     .cover::before {
         max-width: 768px;
         min-height: 480px;
+        margin-bottom: 88px;
     }
 }
 
